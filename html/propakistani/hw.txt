@@ -1,4 +1,0 @@
-- Propakistani Copy
-- Code TO be pushed on git
-- Netlify Live
-- Linkedin Blog
