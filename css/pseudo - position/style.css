@@ -1,0 +1,76 @@
+.btn {
+  background-color: blue;
+}
+
+/* When mouse comes on this btn then... */
+.btn:hover {
+  background-color: brown;
+  cursor: pointer;
+}
+
+/* Unvisited Link */
+a:link {
+  color: chocolate;
+}
+
+/* visited link */
+a:visited {
+  color: #00ff00;
+}
+
+/* pseduo elements */
+.about {
+}
+
+.about::first-letter {
+  font-size: xx-large;
+  font-weight: 900;
+}
+
+.about::first-line {
+  color: brown;
+}
+
+.about::selection {
+  background-color: coral;
+}
+.about::before {
+  content: "Zeeshan";
+}
+.about::after {
+  content: "Ali";
+}
+
+.container {
+  width: 100%;
+  height: 40vh;
+  background-image: url("https://nexskill.com/slider/admission-open-summer-nexskill-lahore.jpeg");
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  /* Horizontal */
+  /*Column: Vertical */
+  justify-content: flex-end;
+  /* Vertical */
+  /* Column: Horizontal */
+  align-items: center;
+}
+
+.red {
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+.green {
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+.blue {
+  background-color: blue;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
