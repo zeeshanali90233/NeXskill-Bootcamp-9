@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="heading" id="heading">Hi</h1>
+    <p>Hi</p>
+
+    <button onclick="changeHeading();">Change</button>
+    <div id="response"></div>
+    <form onsubmit="queryChatbot(); return false;">
+      <input
+        type="text"
+        name="query"
+        id="queryInput"
+        placeholder="ENter query"
+      />
+      <button type="submit">Enter</button>
+    </form>
+    <script src="./index.js"></script>
+  </body>
+</html>
